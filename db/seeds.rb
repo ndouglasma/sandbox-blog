@@ -1,7 +1,3 @@
-# This file should contain all the record creation needed to seed the database with its default values.
-# The data can then be loaded with the rake db:seed (or created alongside the db with db:setup).
-#
-# Examples:
-#
-#   cities = City.create([{ name: 'Chicago' }, { name: 'Copenhagen' }])
-#   Mayor.create(name: 'Emanuel', city: cities.first)
+Article.create(title: "Happiest Cities in the U.S. for Software Engineers", description: "According to Glassdoor’s 2017 study on the tech job market, a growing number of employers in finance, retail, manufacturing, and other traditional industries (12 percent across all industries) have ramped up hiring for tech roles. Not only that, a growing share of tech hiring today is happening far from Silicon Valley.", url: "https://www.codementor.io/blog/happiest-cities-for-software-engineers-40h1d45y04")
+Article.create(title: "New York Attorney General Sues Trump Foundation", description: "The New York attorney general on Thursday sued President Donald Trump's charitable foundation along with its directors -- the President, his sons Eric and Donald Jr. and daughter Ivanka -- alleging they violated state and federal charities law.", url: "https://www.cnn.com/2018/06/14/politics/new-york-lawsuit-trump-foundation/index.html")
+Article.create(title: "Why The Blockchain Is Standardizing What It Means To Be Authentic And Sustainable", description: "Authentic seems like a simple term: real or fake, black or white. But the further you dive into what it means for something to be 'authentic,' the murkier the definition becomes.", url: "https://www.forbes.com/sites/samantharadocchia/2018/06/13/why-the-blockchain-is-standardizing-what-it-means-to-be-authentic-and-sustainable/#79a639cd6f84")
