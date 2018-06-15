@@ -1,0 +1,14 @@
+@import "base/_variables.scss";
+
+.ui.table thead th {
+  font-size: 1.5em;
+  color: $trochut-green;
+}
+
+.ui.table thead th, .ui.table tfoot th {
+  background: $trochut-yellow;
+}
+
+.ui.celled.table tr td:first-child {
+  font-weight: bold;
+}

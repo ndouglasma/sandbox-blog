@@ -8,6 +8,8 @@ gem 'rails', '4.2.10'
 gem 'pg', '~> 0.15'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
+# Semantic-UI for CSS front-end library
+gem 'semantic-ui-sass', '~> 2.3', '>= 2.3.1.2'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
 # Use CoffeeScript for .coffee assets and views

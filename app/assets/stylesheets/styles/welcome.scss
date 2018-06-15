@@ -1,0 +1,18 @@
+@import "base/_variables.scss";
+
+h1.ui.header {
+  margin-top: 3em;
+  margin-bottom: 0em;
+  font-size: 4em;
+  font-weight: normal;
+  color: $trochut-red;
+}
+
+h2 {
+  font-size: 1.7em;
+  font-weight: normal;
+}
+
+.ui.raised.segment {
+  background: $trochut-yellow;
+}
